@@ -1,0 +1,11 @@
+@(tasks: List[Task], taskForm: Form[String])
+
+@import helper._
+
+@main("ToDo List") {
+
+	<h1>@tasks.size task(s)</h1>
+    
+    @play20.welcome(message)
+    
+}
